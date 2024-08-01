@@ -12,10 +12,6 @@ body{
     color: white;
 }
 
-.destaqueDoTitulo{
-    color: aqua
-}
-
 .apresentacao{
     margin: 10% 18%;
     display: flex;
@@ -36,6 +32,10 @@ body{
     font-size: 36px;
 }
 
+.destaqueDoTitulo{
+    color: aqua
+}
+
 .apresentacao__conteudo__texto{
     font-family: "Montserrat", sans-serif;
     height: 144px;
@@ -43,7 +43,16 @@ body{
 }
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__link{
@@ -52,11 +61,17 @@ body{
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-    width: 280px;
+    width: 378px;
     padding: 21.5px 0;
-    background-color: aqua;
-    color: black;
-    border-radius: 16px;
+    border: 2px solid aqua;
+    color: white;
+    border-radius: 8px;
+}
+
+.apresentacao__links__link__logo{
+    width: 32px;
+    height: 32px;
+    border: none;
 }
 
 .tecnologias-destaque{
