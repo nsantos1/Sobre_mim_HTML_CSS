@@ -57,6 +57,9 @@ body{
 
 .apresentacao__links__link{
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
@@ -68,10 +71,17 @@ body{
     border-radius: 8px;
 }
 
+.apresentacao__links__link:hover{
+    cursor: pointer;
+    background-color: #272727;
+    padding: 3%;
+}
+
 .apresentacao__links__link__logo{
     width: 32px;
     height: 32px;
     border: none;
+    
 }
 
 .tecnologias-destaque{
