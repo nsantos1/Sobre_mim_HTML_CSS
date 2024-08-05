@@ -5,32 +5,27 @@
     padding: 0;
 }
 
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
 .cabecalho {
     color: aqua;
     font-family: "Montserrat" sans-serif;
     font-weight: 600;
     font-size: 24px;
+    padding: 2% 0% 0% 18%;
 }
 
 .cabecalho__menu {
-    padding: 2%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 80px;
 }
 
 .cabecalho__menu__links:hover {
     cursor: pointer;
-    background-color: #272727;
-    padding: 10px 15px;
-}
-
-
-
-body {
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
 }
 
 .apresentacao {
