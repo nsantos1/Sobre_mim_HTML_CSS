@@ -5,10 +5,23 @@
     padding: 0;
 }
 
+:root{
+    --cor-primaria: #000000;
+    --cor-segundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+    
+    --fonte-primaria: "Montserrat" sans-serif;
+    --fonte-secundaria: "Krona One", sans-serif;
+
+    --fonte-peso-primario: 600;
+    --fonte-peso-secundario:400;
+}
+
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-segundaria);
 }
 
 .cabecalho {
@@ -21,9 +34,9 @@ body {
 }
 
 .cabecalho__menu__links {
-    color: aqua;
-    font-family: "Montserrat" sans-serif;
-    font-weight: 600;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    font-weight: var(--fonte-peso-primario);
     font-size: 24px;
     text-decoration: none;
 }
@@ -47,17 +60,17 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-secundaria);
     height: 168px;
     font-size: 36px;
 }
 
 .destaqueDoTitulo {
-    color: aqua
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-primaria);
     height: 144px;
     font-size: 24px;
 }
@@ -71,30 +84,30 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: "Krona One", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+    font-weight: var(--fonte-peso-secundario);
     font-size: 24px;
 }
 
 .apresentacao__links__link {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
+    font-family: var(--fonte-primaria);
+;    display: flex;
     justify-content: center;
     gap: 18px;
     font-size: 24px;
-    font-weight: 600;
+font-weight: var(--fonte-peso-primario);
     text-decoration: none;
     text-align: center;
     width: 378px;
     padding: 21.5px 0;
-    border: 2px solid aqua;
-    color: white;
+    border: 2px solid var(--cor-terciaria);
+    color: var(--cor-segundaria);
     border-radius: 8px;
 }
 
 .apresentacao__links__link:hover {
     cursor: pointer;
-    background-color: #272727;
+    background-color: var(--cor-hover);
     padding: 3%;
 }
 
@@ -105,19 +118,19 @@ body {
 }
 
 .tecnologias-destaque {
-    color: aqua;
+    color: var(--cor-terciaria);
 }
 
 img {
     width: 500px;
-    border: 5px groove aqua;
+    border: 5px groove var(--cor-terciaria);
 }
 
 .rodape {
-    background-color: aqua;
+    background-color: var(--cor-terciaria);
     color: black;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-family: var(--fonte-primaria);
+    font-weight: var(--fonte-peso-secundario);
     font-size: 24px;
     text-align: center;
     padding: 24px;
