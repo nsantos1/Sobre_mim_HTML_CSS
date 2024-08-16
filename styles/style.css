@@ -50,6 +50,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px
 }
 
 .apresentacao__conteudo {
@@ -126,4 +127,18 @@ body {
     font-size: 1.5rem;
     text-align: center;
     padding: 24px;
+}
+
+@media (max-width: 1023px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
