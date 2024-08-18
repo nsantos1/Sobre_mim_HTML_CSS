@@ -1,6 +1,6 @@
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
-![imagem](C:\Users\Nicolas\Desktop\Sobre_mim_HTML_CSS\imagens\portifolio_imagem.png)
+![imagem](imagens/portifolio_imagem.png)
 
 ## Ferramentas utilizadas:
 
